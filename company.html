@@ -1,245 +1,373 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/final.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="main1.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	 <style type='text/css'>
+        ul.nav li.dropdown:hover ul.dropdown-menu {
+            display: block;
+        }
+    </style>
 </head>
-<body>
 
-<div class=" color container-fluid">
-    <div class="paddingtop container">
-        <div class="row hidden-xs topper">
-            <div class=" col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                <a href="index.html"><img src="images/logo.png" class="img-responsive"></a>
-            </div>
-            <div class="paddingtop2 col-lg-4   col-md-4 col-sm-12 col-lg-offset-2">
-                <div class="col-lg-2  col-md-2 col-sm-2 col-xs-2">
-                    <span class=" telephonebarge badge"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                </div>
-                <div class="col-lg-7  col-md-7 col-sm-7">
-                    <ul class="telephonelist list-unstyled">
-                        <li>+998(71)185-16-55</li>
-                        <li>+998(71)185-16-55</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="paddingtop2 col-lg-2 col-md-2 col-sm-2 col-xs-2 col-lg-offset-2 ">
-                <p class="language"> <a href="">Рус</a> <a href="">Uzb</a> <a href="">En</a>
-                </p>
-                <!--<div class="marginleft col-lg-12">-->
-                <!--<span class="entarance"><i class="fa fa-user" aria-hidden="true"></i><a href="">Вход</a></span><span class="registration"><a href="" >Регистрация</a></span>-->
-                <!--</div>-->
-            </div>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar-fixed-top mohiNavigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div>
+						<a class="navbar-brand" href="index1.html"><img src="images/epp.png" style="/*height: 2.8em; padding-bottom: 0.1em;*/"></a>
+					</div>
+				</div>
+				<div class="phone navbar-right">
+					<div class="phone-block">
+						<i class="fa fa-phone"></i><span>+998 90</span><strong style="color:#ee3a4b; font-size:30px;text-align:right"> 987 64 43 </strong>
+						<ul class="lang-section list-inline">
+					<li><a href="#">Rus</a></li>
+					<li><a href="#">Uzb</a></li>
+					</ul>
+					</div>
 
+				</div>
+				<div class="collapse navbar-collapse navbar-right"  id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="dropdown" ><a class="dropdown-toggle" data-toggle="dropdown" href="#">Услуги<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="uslugi4.html">ПРОЕКТИРОВАНИЕ И МОНТАЖ СЕТЕЙ </a></li>
+								<li><a href="uslugi7.html">ПРОДАЖА СЕТЕВОГО ОБОРУДОВАНИЯ</a></li>
+								<li><a href="uslugi8.html">СИГНАЛИЗАЦИЯ И ВИДЕОНАБЛЮДЕНИЕ</a></li>
+								<li><a href="uslugi3.html">ПРОДАЖА КОМПЬЮТЕРНОЙ ТЕХНИКИ</a></li>
+								<li><a href="uslugi9.html">ИСТОЧНИКИ БЕСПЕРЕБОЙНОГО ЭЛЕКТРОПИТАНИЯ</a></li>
+								<li><a href="uslugi5.html">ПРОДАЖА ЛИЦЕНЗИОННОГО ПО</a></li>
+								<li><a href="uslugi2.html">ЛОГИСТИКА ОБОРУДОВАНИЯ</a></li>
+								<li><a href="uslugi6.html">ПРОИЗВОДСТВО ПК</a></li>
+							</ul>
+						</li>
 
-        </div>
-        <!-- End Topper -->
-        <!-- Navigation -->
-    </div>
-    <div class="row">
-        <nav class="navbar navbar-inverse" role="navigation">
-            <div class="container">
-                <div class="row">
-                    <!-- Brand a>nd t>oggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-
-
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse navbar-ex1-collapse">
-                        <ul class="nav navbar-nav js-nav-add-active-class">
-                            <li class="active"><a href="index.html">Главная </a></li>
-                            <li><a href="catalog.html">Каталог</a></li>
-                            <li><a href="reviews.html">Отзывы</a></li>
-                            <li><a href="company.html">О компании</a></li>
-                            <li><a href="new.html">Новости</a></li>
-                            <li ><a href="vakancy.html">Вакансии</a></li>
-                            <li><a href="contact.html">Контакты</a></li>
-                        </ul>
-
-                    </div><!-- /.navbar-collapse -->
-                </div>
-            </div>
-        </nav>
-    </div>
+						<li><a href="ibp.html">ИБП ION</a></li>
+						<li><a href="blog1.html">Блог</a></li>
+						<li><a href="company.html"> О компании </a></li>
+						<li><a href="vacancy.html">Вакансии</a></li>
+						<li><a href="contact.html">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+	</nav>
 
 
-    <div class="row">
+  <!-- end of navigation -->
+
+
+<!-- foto -->
 
 
 
-        <div class="carousel-inner">
-            <div class="item active">
-                <a href="" ><img src="images/company.png"  class="img-responsive"></a>
-                <div class="carousel-caption col-lg-3 col-lg-3 col-md-6 col-xs-12 pull-left">
-                    <p class="imageheader">Los Angeles<p>
-                    <p  class="imgparagraph">to do it? But without additional divs and JS.
-                        PS: The background image may be different, so I already try to put the same bg under the text but it's not the solution.
-                        PPS: The "div.main-container" must no contain the overflow:hidden
-                        do it? But without additional divs and JS.
-                        PS: The background image may be diffe
-                        : The "div.main-container" must no contain the overflow:hidden
-                        do it? But without additional divs and JS.
-                        PS: The background image may be d</p>
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- <div class="container-fluid">
+<div class="row">
+<img src="images/Company-1.png" style="padding-top:100px;"><h3>КОМПАНИЯ</h3>
 
-    <div class="container">
-        <div class=" news col-lg-12">
-            <p>О компании</p>
-        </div>
-        <div class=" col5img col-lg-5 col-md-5">
-            <a href=""><img src="images/company2.png" ></a>
-        </div>
-
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-
-            <p class="comapanyparagraph ">to do it? But without additional divs and JS.
-                PS: The background image may be different, so I already try to put the same bg under the text but it's not the solution.
-                PPS: The "div.main-container" must no contain the overflow:hidden
-                do it? But without additional divs and JS.
-                PS: The background image may be diffe
-                : The "div.main-container" must no contain the overflow:hidden
-                do it? But without additional divs and JS.
-                PS: The background image may be </p>
-
-            </div>
 </div>
-<div class="paddingtop2 container">
-
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-
-            <p class="comapanyparagraph">to do it? But without additional divs and JS.
-                PS: The background image may be different, so I already try to put the same bg under the text but it's not the solution.
-                PPS: The "div.main-container" must no contain the overflow:hidden
-                do it? But without additional divs and JS.
-                PS: The background image may be diffe
-                : The "div.main-container" must no contain the overflow:hidden
-                do it? But without additional divs and JS.
-                PS: The background image may be </p>
-
-        </div>
-
-        <div class="col5img  col-lg-5 col-md-5">
-            <a href=""><img src="images/comapany3.jpg"  class="img-rounded"></a>
-        </div>
+</div> -->
 
 
-    <div class=" news col-lg-12 text-center">
-        <p>Используемое сырье</p>
-    </div>
-<div class="imgcol3 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center ">
-    <a href=""><img src="images/company3.png"  ></a>
+
+<div class="container-fluid">
+	<div class="row carousel-slider">
+	<!-- Carousel -->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/Company-1.png" alt="First slide">
+					<!-- Static Header -->
+
+					<div class="word carousel-caption" >
+						<h2><strong> О компании</strong></h2>
+
+
+
+					</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+
+
+<!-- icons -->
+<div class="container-fluid">
+<div class="row" style="background-color:#fafafa;">
+<div class="afterCarusel container">
+
+				<div class="row col-lg-12" style="padding-top:20px; background-color:#fafafa">
+					<div class="icon col-md-2 col-sm-2" ><img src="images/alarm.png" alt="Компьютера и сети в Ташкенте" > <span >Работы выполняются быстро и в оговоренные сроки</span></div>
+					<div class=" icon col-md-2 col-sm-2" ><img src="images/klass.png" alt="Компьютера и сети в Ташкенте"> <span>Качественные комплектующие</span></div>
+					<div class="icon col-md-2 col-sm-2" ><img src="images/email.png" alt="Компьютера и сети в Ташкенте"> <span >Полный пакет документов в срок</span></div>
+					<div class="icon col-md-2 col-sm-2"><img src="images/office-block.png" alt="Компьютера и сети в Ташкенте" > <span>Обслуживаем гос. объекты и частные фирмы</span></div>
+					<div class="icon col-md-2 col-sm-2"><img src="images/list.png" alt="Компьютера и сети в Ташкенте"> <span >Комплексные решения под ключ</span></div>
+					<div class=" icon col-md-2 col-sm-2" ><img src="images/creative.png" alt="Компьютера и сети в Ташкенте"> <span >Гарантийный сервис до 3х лет</span></div>
+				</div>
 </div>
-    <div class="imgcol3 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center ">
-        <a href=""><img src="images/comapny4.png" ></a>
-    </div>
-    <div class="imgcol3 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center ">
-        <a href=""><img src="images/company6.png" ></a>
-    </div>
-
- <div class="oneline col-lg-4 col-md-4 col-sm-4 col-xs-4 " >
-    <p><strong>Evo protect FCC</strong>-водооталкивающая пропитка
-        Фирма<q> Dystrar taxtabln </q> <strong> (Германия)</strong></p>
 </div>
-    <div class="oneline col-lg-4  col-md-4 col-sm-4 col-xs-4" >
-        <p><strong>Evo protect FCC</strong>-водооталкивающая пропитка
-            Фирма<q> Dystrar taxtabln </q> <strong> (Германия)</strong></p>
-    </div>
-    <div class="oneline col-lg-4  col-md-4 col-sm-4 col-xs-4" >
-        <p><strong>Evo protect FCC</strong>-водооталкивающая пропитка
-            Фирма<q> Dystrar taxtabln </q> <strong> (Германия)</strong></p>
-    </div>
 
-        </div>
+			<!-- End of icons -->
 
+
+<!-- company information -->
+<div class=" container">
+<div class ="header4">
+<h2><strong>EXIM PREMIUM PRO</strong></h2>
+</div>
+
+<div class="company">
+<div class=" col-lg-8" style="text-align:left;">
+<p>Наша компания имеет более чем 10-летний стаж работы на рынке Узбекистана в различных сферах ИТ и зарекомендовала себя как надежный партнер, имея успешный опыт сотрудничества с крупными государственными и коммерческими предприятиями Республики Узбекистан.</p>
+<p>Мы имеем честь предложить рассмотреть возможные варианты сотрудничества в области систем гарантированного электропитания. На рынке РУз мы эксклюзивно представляем оборудование известной торговой марки ION - источники бесперебойного питания, мощностью от 600 VA до 200 kVA, инверторы, стабилизаторы и сетевые фильтры и прочее электротехническое оборудование и фурнитуру.</p>
+<p>Значительная часть оборудования, поставляемого на рынок РУз производится по техническим спецификациям, разработанным инженерами нашей компании.</p>
+<p>При необходимости существует возможность изготовления оборудования по специальным требованиям заказчика.</p>
+<p>Наша компания является официальным представителем компании COSLIGHT, производящей широкий спектр аккумуляторных батарей для телекоммуникационного оборудования и систем гарантированного электропитания.</p>
+<p>Все поставляемое оборудование и реализованные проекты обеспечиваются гарантийной и пост-гарантийной поддержкой.</p>
+<p>Сервисная поддержка построена на принципах максимально быстрой реакции на обращения клиентов, высоким профессиональным уровнем технического персонала и гибким подходом к потребностям каждого клиента. Для обеспечения максимальной оперативности гарантийного и пост-гарантийного сервиса на складах компании и ее бизнес-партнеров в РУз имеется достаточное количество запасных частей и расходных материалов для предлагаемого оборудования.</p>
+<p>Так же мы готовы предложить сотрудничество по следующим направлениям:</p>
+<ul>
+<li>Поставки серверов, персональных компьютеров, ноутбуков, оргтехники, моноблоков производства компаний Lenovo, Hewlett Packard, Huawei.</li>
+<li>Сервисное обслуживание оргтехники – ремонт, заправка картриджей, поддержка пользователей.</li>
+<li>Проектирование, монтаж и техническое обслуживание сетей передачи данных (ЛВС) / оптики (ВОЛС) / WiFi, наладка и их техническое обслуживание.</li>
+<li>Проектирование, монтаж и обслуживание систем безопасности: видеонаблюдения, охранно-пожарных систем, систем контроля доступа.</li>
+</ul>
+<p><strong>Наша компания имеет специальное разрешение для выполнения работ на категорийных и имеющих ограниченный допуск объектах.</strong></p>
+</div>
+
+<div class="foto col-lg-4">
+
+<a class=""  href="/images/o-nas/4.jpg" data-lightbox="group:19-5937e8d702ce7"><img src="images/company2.png" width="330" height="220"  alt="4"></a>
+</div>
+
+<div class="foto col-lg-4">
+
+<a class="" href="/images/o-nas/3.jpg" data-lightbox="group:19-5937e8d702ce7"><img src="images/company4.png" width="330" height="220" alt="3"></a>
+</div>
+<div class="foto col-lg-4">
+
+<a class="" href="/images/o-nas/5.jpg" data-lightbox="group:19-5937e8d702ce7"><img src="images/company3.png" width="330" height="220" alt="5"></a>
+</div>
+
+</div>
 </div>
 
 
-
-<footer class=" footer">
-    <div class="container">
+<!-- end of information company -->
 
 
-        <div class="col-md-3 col-sm-6">
-            <div class="footer-info-single">
-                <h3 class="title"><strong>Навигация</strong></h3>
-                <ul class="list-unstyled">
-                    <li><a href="catalog.html" title=""></i>Каталог</a></li>
-                    <!--<li><a href="http://www.nextbootstrap.com/" title="">Услуги</a></li>-->
-                    <li><a href="new.html" title="">Новости</a></li>
-                    <li><a href="vakancy.html" title="">Вакансии</a></li>
-                </ul>
-            </div>
-        </div>
+<div class="comanda row">
+<div class="comanda1">
+<div class="container">
 
-        <div class="col-md-3 col-sm-6">
-            <div class="footer-info-single">
-                <h3 class="title"><strong>Категории</strong></h3>
-                <ul class="list-unstyled">
-                    <li><a href="catalog.html" title=""></i>Техническая ткань</a></li>
-                    <li><a href="" title="">Габард</a></li>
+<div class="header2"><h2><strong>КОМАНДА EXIM PREMIUM PRO</strong></h2>
+</div>
+
+	<!-- <div class="row-fluid show-grid" style="padding-bottom: 40px;"> -->
+
+	<div class="col-lg-4">
+		<p><img src="images/worker.png" alt="Aleksey Fayzulov Rukovoditel otdela prodazh i raboty s klientami 2"></p>
+		<div id="fs"><span >Алексей Файзулов</span></div>
+		<div id="fs1"><span >Руководитель отдела продаж и работы с клиентами</span></div>
+	</div>
+
+	<div class="col-lg-4">
+		<p><img src="images/worker2.png" alt="Marat Tursinbayev menedzher otdela prodazh"></p>
+		<div id="fs"><span >Марат Турсынбаев</span></div>
+		<div id="fs1"><span >Менеджер отдела продаж</span></div>
+	</div>
+
+	<div class="col-lg-4">
+		<p><img src="images/worker3.png" alt="Aleksey Loginov Rukovoditel proektnogo otdela sistem fizicheskoy bezopasnosti"></p>
+		<div id="fs"><span >Алексей Логинов</span></div>
+		<div id="fs1"><span >Руководитель проектного отдела систем физической безопасности</span></div>
+	</div>
+
+	<div class="col-lg-4">
+		<p><img src="images/worker4.png" alt="Dmitriy Yakunin Tekhnicheskiy spetsialist"></p>
+		<div id="fs"><span >Дмитрий Якунин</span></div>
+		<div id="fs1"><span>Технический специалист</span></div>
+	</div>
+
+     <div class="col-lg-4">
+
+		<p><img src="images/worker5.png" alt="Maksim Pereverzev Tekhnicheskiy spetsialist 2"></p>
+		<div id="fs"><span >Максим Переверзев</span></div>
+		<div id="fs1"><span >Технический специалист</span></div>
+	</div>
+	<div class="col-lg-4">
+		<p><img src="images/worker6.png" alt="mihail puzhakov"></p>
+		<div id="fs"><span >Михаил Пужаков</span></div>
+		<div id="fs1"><span >Технический специалист</span></div>
+	</div>
+</div>
+<div class="container">
+	<div class="col-lg-4">
+		<p><img src="images/worker7.png" alt="Aleksey Belousov Direktor po logistike i vneshnim svyazyam"></p>
+		<div id="fs"><span>Алексей Белоусов</span></div>
+		<div id="fs1"><span >Директор по логистике и внешним связям</span></div>
+	</div>
+	<div class="col-lg-4">
+		<p><img src="images/worker8.png" alt="Arsen Palyants Direktor kommercheskiy direktor"></p>
+		<div id="fs"><span >Арсен Пальянц</span></div>
+		<div id="fs1"><span >Коммерческий&nbsp;<span >директор&nbsp;</span></span>
+		</div>
+	</div>
+
+	<div class="col-lg-4">
+		<p><img src="images/worker9.png" alt="Bakhtiyor Tulyaganov Direktor kompanii"></p>
+		<div id="fs"><span >Бахтиёр Туляганов</span></div>
+		<div id="fs1"><span >Директор компании</span></div>
+	</div>
+	</div>
+	<div class="container">
+	<div class="col-lg-4">
+		<p><img src="images/worker10.png" alt="Inna Sharipova Glavnyy bukhgalter"></p>
+		<div id="fs"><span >Инна Шарипова</span></div>
+		<div id="fs1"><span >Главный бухгалтер</span></div>
+	</div>
+	<div class="col-lg-4">
+		<p><img src="images/worker11.png" alt="Darya Ryazanova Zamestitel glavnogo bukhgaltera"></p>
+		<div id="fs"><span >Дарья Рязанова</span></div>
+		<div id="fs1"><span >Заместитель главного бухгалтера</span></div>
+	</div>
+
+</div>
+
+</div>
+</div>
 
 
-                </ul>
-            </div>
-        </div>
-
-        <div class="col-md-3 col-sm-6">
-            <div class="footer-info-single">
-                <h3 class="title"><strong>Информация</strong></h3>
-                <ul class="list-unstyled">
-                    <li><a href="contact.html" title="">Свяжитесь с нами </a></li>
-                    <li><a href="company.html" title="">О компании</a></li>
-                    <li><a href="contact.html" title="">Карта сайта</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="footer-info-single">
-                <h3 class="title"><strong>Контакты</strong></h3>
-                <ul class="list-unstyled">
-                    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-phone" aria-hidden="true"></i> +998(71)233-20-47</a></li>
-                    <!--<li class="letter"><a href="" title=""> <i class="fa fa-map-marker" aria-hidden="true"></i>  Узбекистан, Ташкент<br> 10047,ул.Я Гулямова 70</a></li>-->
 
 
-                    <i class=" pointer fa fa-map-marker" aria-hidden="true"></i>
 
 
-                    <div class="address1">
-                        <ul class="address list-unstyled">
-                            <li><a  href="">Узбекистан, Ташкент</a> </li>
-                            <li> <a class="address2" href="">10047,ул.Я Гулямова 70</a></li>
-                        </ul>
-                    </div>
-                    <!--</a>-->
-                    <!--</li>-->
 
-                    <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-envelope" aria-hidden="true"></i>  uzfant@mail.ru </a></li>
 
-                </ul>
-            </div>
-        </div>
-        <div class="copyright col-lg-1 col-md-2 col-sm-2 col-xs-2 col-lg-offset-2 pull-right ">
-            <img src="images/certificate1.png"class="img-responsive">
-            <i class="fa fa-copyright" aria-hidden="true"> 2017</i>
-        </div>
-    </div>
+<div class="row">
 
+<div class="carta">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.6340200286313!2d69.33445899999904!3d41.33857098668211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef48a89254047%3A0x2ea7ae15d1c4f590!2z0KPQvdC40LLQtdGA0YHQuNGC0LXRgiDQmNC90YXQsCDQsiDQs9C-0YDQvtC00LUg0KLQsNGI0LrQtdC90YLQtQ!5e0!3m2!1sru!2sru!4v1426685691581" scrolling="no" width="100%" height="450" frameborder="0" style="border:0; pointer-events: none;"></iframe>
+
+</div>
+<footer>
+<nav class="footer">
+	<div class="container">
+
+		<div class="navbar-header">
+
+		</div>
+<div class="face navbar-right">
+
+		 <td><a href="">Мы в соцсетях: <i style="background-color:#999999;
+ border-radius: 50%;
+
+ padding:10px;" class= "facebook fa fa-lg fa-facebook fanav" ></i></a></td>
+</div>
+
+		<div class="collapse navbar-collapse navbar-left"  id="footer">
+			<ul class="nav navbar-nav">
+				<li><a href="uslugi4.html">Услуги</a></li>
+
+				<li><a href="ibp.html">ИБП ION</a></li>
+				<li><a href="blog1.html">Блог</a></li>
+				<li><a href="company.html"> О компании </a></li>
+				<li><a href="vacancy.html">Вакансии</a></li>
+				<li><a href="contact.html">Контакты</a></li>
+
+
+			</ul>
+
+			<ul>
+
+
+			</ul>
+		</div>
+
+
+</div>
+</nav>
+
+
+
+
+
+
+<!-- <div class="container" style="background-color:#222222;">
+
+ -->
+ <!-- <div class="container-fluid" style="background-color:#222222;"> -->
+<div class="container-fluid" style="background-color:#222222;">
+<div class="container">
+<div class="row" >
+			<div class="col-lg-2">
+				<a href=""> <span class="glyphicon glyphicon-copyright-mark" style="margin-left:17px;"></span><span>Copyright 2011-2017</span></a>
+</div>
+			<div class="polzovatel col-lg-4" >
+				<a href="">Пользовательские соглашения</a>
+			</div>
+
+				<div class="politika col-lg-4" style="text-align: left">
+				<a href="">Политика конфидециальности</a>
+			</div>
+
+<div class="col-lg-2" >
+				<a href=""><img  class="img-responsive" src="images/4.png"></a>
+			</div>
+
+		</div>
+
+</div>
+</div>
+</div>
 
 </footer>
 
 
-<script src="assets/js/final.js"></script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
